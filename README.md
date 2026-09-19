@@ -1,4 +1,4 @@
-# FINTERM
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0f58ce1f-5b79-4e7b-a814-b71e3004ca04" /># FINTERM
 
 A local, offline-capable finance terminal: **TimesFM 2.5** for price forecasting,
 **Gemma** for reasoning over company fundamentals, **Yahoo Finance** for data.
@@ -17,6 +17,16 @@ Everything runs on your own machine — no API keys, no data leaves the box.
  │ 30d forecast│    │ news · calendar│   │ reasoning only │
  └─────────────┘    └───────────────┘    └────────────────┘
 ```
+#Screenshots
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d4d5cd62-2509-41a5-9320-e8b96957bb50" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b9a30f98-59cf-4648-9d10-4dd3b714143a" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4a1aee1d-fc1b-45b1-9c19-fa472dc2f558" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/60d24fe7-b7ed-4947-9e1d-974b5481f916" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c43954d2-0cd9-4975-bebd-cfe407a4d290" />
 
 ---
 
