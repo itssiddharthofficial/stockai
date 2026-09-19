@@ -17,7 +17,8 @@ Everything runs on your own machine — no API keys, no data leaves the box.
  │ 30d forecast│    │ news · calendar│   │ reasoning only │
  └─────────────┘    └───────────────┘    └────────────────┘
 ```
-#Screenshots
+# Screenshots
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d4d5cd62-2509-41a5-9320-e8b96957bb50" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b9a30f98-59cf-4648-9d10-4dd3b714143a" />
