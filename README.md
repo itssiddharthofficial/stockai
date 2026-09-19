@@ -80,8 +80,6 @@ Everything runs on your own machine — no API keys, no data leaves the box.
    - Local LLM serving runtime for on-device model execution
    - Download & installation: [ollama.ai](https://ollama.ai)
 
-### Python Dependencies
-All required packages listed in `requirements.txt`:
 ---
 
 ## Install
