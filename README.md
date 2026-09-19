@@ -29,6 +29,9 @@ Everything runs on your own machine — no API keys, no data leaves the box.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c43954d2-0cd9-4975-bebd-cfe407a4d290" />
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c1c100da-a139-424e-b6ca-a5a303a8694a" />
+
+
 ---
 
 ## What it does
