@@ -49,13 +49,15 @@ Everything runs on your own machine — no API keys, no data leaves the box.
 
 ## Requirements
 
-- **Windows / macOS / Linux**, Python **3.11+** (developed on 3.13)
-- **[Ollama](https://ollama.com)** for the chat model
-- **~8 GB RAM free** for the 4B model, **~10 GB** for the 12B
-- ~6 GB disk (venv + TimesFM weights), plus 3.3 GB / 7.6 GB per chat model
+- **OS:** Windows / macOS / Linux, Python 3.11+ (developed on 3.13)
+- **RAM:** ~8 GB free for 48B model, ~10 GB for 128B (chat model runs on CPU; GPU optional)
+- **Disk:** ~6 GB (venv + TimesFM weights), plus 3.3 GB / 7.6 GB per chat model
+- **Dependencies:** 
+  - [Ollama](https://ollama.ai) for the chat model
+  - **[TimesFM 3.0](research link)** — Google's zero-shot foundation model for 30-day stock forecasting (3.3 GB)
+  - **[Gemma 4](research link)** — Google DeepMind's lightweight LLM for real-time financial analysis (7.6 GB)
 
-A GPU is optional. With under ~8 GB of VRAM the chat model runs on CPU, which is
-the configuration this project was tuned for.
+**A GPU is optional.** With under ~8 GB of VRAM the chat model runs on CPU, which is the configuration this project was tuned for.
 
 ---
 
