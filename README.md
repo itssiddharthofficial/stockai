@@ -47,18 +47,41 @@ Everything runs on your own machine — no API keys, no data leaves the box.
 
 ---
 
-## Requirements
+## 📦 Requirements
 
-- **OS:** Windows / macOS / Linux, Python 3.11+ (developed on 3.13)
-- **RAM:** ~8 GB free for 48B model, ~10 GB for 128B (chat model runs on CPU; GPU optional)
-- **Disk:** ~6 GB (venv + TimesFM weights), plus 3.3 GB / 7.6 GB per chat model
-- **Dependencies:** 
-  - [Ollama](https://ollama.ai) for the chat model
-  - **[TimesFM 3.0](research link)** — Google's zero-shot foundation model for 30-day stock forecasting (3.3 GB)
-  - **[Gemma 4](research link)** — Google DeepMind's lightweight LLM for real-time financial analysis (7.6 GB)
+### System Requirements
+- **Operating System:** Windows 10/11, macOS, or Linux
+- **Python Version:** 3.11+ (developed and tested on Python 3.13)
+- **RAM:** 
+  - Minimum: 8 GB free for 48B model
+  - Recommended: 10 GB for 128B model
+  - Chat model runs on CPU (GPU optional for acceleration)
+- **Disk Storage:**
+  - Virtual environment + dependencies: ~6 GB
+  - TimesFM 3.0 weights: ~3.3 GB
+  - Chat model (Gemma 4 12B): ~7.6 GB
+  - Database & cache: ~500 MB
+  - **Total: ~17 GB recommended**
+- **GPU:** Optional (beneficial if you have 8GB+ VRAM; system tuned for CPU inference)
 
-**A GPU is optional.** With under ~8 GB of VRAM the chat model runs on CPU, which is the configuration this project was tuned for.
+### AI Models & Dependencies
 
+1. **[TimesFM 3.0](https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting/)**
+   - Google's zero-shot foundation model for multivariate time-series forecasting
+   - Generates 30-day stock price predictions with 80% confidence intervals
+   - Requires: ~3.3 GB disk space
+
+2. **[Gemma 4](https://deepmind.google/models/gemma/gemma-4/)**
+   - Google DeepMind's instruction-tuned LLM (4B, 8B, 12B variants)
+   - Real-time financial analysis grounded in actual market data (no hallucinations)
+   - Requires: 3.3 GB (4B) to 7.6 GB (12B) disk space
+
+3. **[Ollama](https://ollama.ai)**
+   - Local LLM serving runtime for on-device model execution
+   - Download & installation: [ollama.ai](https://ollama.ai)
+
+### Python Dependencies
+All required packages listed in `requirements.txt`:
 ---
 
 ## Install
