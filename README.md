@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0f58ce1f-5b79-4e7b-a814-b71e3004ca04" /># FINTERM
+# FINTERM
 
 A local, offline-capable finance terminal: **TimesFM 2.5** for price forecasting,
 **Gemma** for reasoning over company fundamentals, **Yahoo Finance** for data.
