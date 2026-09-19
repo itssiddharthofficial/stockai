@@ -1,0 +1,34 @@
+# Virtual environment (~4 GB)
+venv/
+env/
+timesfm_gemma_env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Runtime data — regenerated on first run
+data/
+logs/
+*.db
+*.sqlite3
+*.log
+
+# Model weights are pulled by Ollama / HuggingFace, never committed
+models/
+*.gguf
+*.safetensors
+
+# Vendored chart library is fetched by scripts/fetch_assets.py
+static/lightweight-charts.js
+
+# Local environment
+.env
+.venv
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
